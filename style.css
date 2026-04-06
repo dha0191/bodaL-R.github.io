@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainmarry{
+
+    width: 100%;
+    min-height: 100dvh;
+    /* El gradiente va primero para que se encime a la imagen */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgb(255, 255, 255)), url(images/boda2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Opcional: para centrar la imagen */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.title-main{
+    flex: 0 0 50;
+    padding-top: 8vw;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.historia{
+    color: white;
+    font-family: "Imperial Script", cursive;
+    font-weight: 100;
+}
+
+.footimg{
+    flex: 0 0 50;
+    padding-bottom: 8vw;
+    padding-left: 8vw;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.p1{
+   font-size: 1.3rem;
+   color: #b78f6e;
+}
+
+.p2{
+    font-family: "Imperial Script", cursive;
+    font-size: 3.5rem;
+    color: #b78f6e;
+}
+
+.fecha-frase{
+    width: 100%;
+    min-height: 30dvw;
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+}
+
+.frase{
+    flex: 0 0 50;
+    color: #b78f6e;
+}
+
+.falta{
+    flex: 0 0 50;
+    text-align: right;
+}
+
+.falta-titulo{
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #e6d8c3;
+}
+
+.falta-parrafo{
+    font-family: "Imperial Script", cursive;
+    font-size: 2.5rem;
+    color: #d1b59a;
+}
+
+#countdown {
+    padding-top: 10vw;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-family: 'Segoe UI', sans-serif;
+    color: #b78f6e;
+}
+
+#countdown div {
+    text-align: center;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+#countdown span {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.dia{
+    width: 100%;
+    min-height: 10dvh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vw;
+    padding-bottom: 5vw;
+}
+
+.mes{
+    font-size: 4rem;
+    color: #d1b59a;
+}
+
+.eldia{
+    font-size: 6.5rem;
+    color: #d1b59a;
+}
+
+.year{
+    font-size: 5rem;
+    color: #d1b59a;
+}
+
+.imgboda2{
+    margin: 10vw auto 15vw;
+    border-radius: 30vw;
+    width: 60%;
+    height: 70dvh;
+    background-image: url(images/boda1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ceremonia{
+    width: 90%;
+    min-height: 30dvh;
+    margin: 0 auto 10vw;
+    background-color: #b78f6e;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vw;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5vw;
+}
+
+.ceremoniaparte1{
+    flex: 0 0 20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vw;
+}
+
+.titleceremonia{
+    font-family: "Imperial Script", cursive;
+    font-weight: 100;
+    font-size: 3.2rem;
+    color: #f8f1e5;
+}
+
+.textceremonia{
+    font-size: 1.1rem;
+    color: white;
+}
+
+.imgcruz{
+    height: 15vw;
+}
+
+.btnceremonia{
+    flex: 0 0 1;
+    width: 35vw;
+    height: 8vw;
+    border-radius: 5vw;
+    border: none;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+}
+
+.enlacetbtn{
+    text-decoration: none;
+}
+
+.textbtn{
+    color: #b78f6e;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.fiesta{
+    width: 90%;
+    min-height: 30dvh;
+    margin: 10vw auto;
+    background-color: #f8f1e5;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vw;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5vw;
+}
+
+.fiestaparte1{
+    flex: 0 0 20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vw;
+}
+
+.titlefiesta{
+    font-family: "Imperial Script", cursive;
+    font-weight: 100;
+    font-size: 3.2rem;
+    color: #d1b59a;
+}
+
+.textfiesta{
+    font-size: 1.1rem;
+    color: #d1b59a;
+}
+
+.imgfiesta{
+    height: 15vw;
+}
+
+.btnfiesta{
+    flex: 0 0 1;
+    width: 35vw;
+    height: 8vw;
+    border-radius: 5vw;
+    border: none;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+    background-color: #b78f6e;
+}
+
+.enlacetbtn2{
+    text-decoration: none;
+}
+
+.textbtn2{
+    color: #f8f1e5;
+    font-size: 1.2rem;
+    text-decoration: none;
+}

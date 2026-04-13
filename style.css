@@ -488,25 +488,39 @@
     align-content: center;
     width: 100%;
     height: 30vh;
-    background-image: url(images/imgall1.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 2rem;
+   overflow: hidden;
+   border-radius: 1rem;
+   position: relative;
+}
+
+.gallery1img1{
+    height: 60vh;
+    position: absolute;
+    top: -4rem;
 }
 
 .gallery2{
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
     flex: 0 0 30;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: .5rem;
+    gap: .3rem;
 }
 
-.gallery2 img{
-    height: 23vh;
-    align-self: center;
+.gallery2img1{
+    
+    height: 28vh;
     border-radius: 1rem;
+}
+
+.gallery2img2{
+   
+    height: 28vh;
+    border-radius: 1rem;
+    
 }
 
 .gallery3{
@@ -516,11 +530,15 @@
     align-content: center;
     width: 100%;
     height: 30vh;
-    background-image: url(images/imgall4.png);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 2rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.img-gallery3{
+    height: 60vh;
+    position: absolute;
+    top: -9rem;
 }
 
 .ftr{

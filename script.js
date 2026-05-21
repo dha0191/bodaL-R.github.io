@@ -25,7 +25,7 @@ function abrirSobreReal() {
 }
 
 //contador de fecha
-const targetDate = new Date('June 5, 2026 24:00:00').getTime();
+const targetDate = new Date('June 6, 2026 00:00:00').getTime();
 
 const interval = setInterval(() => {
     const now = new Date().getTime();

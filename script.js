@@ -46,6 +46,6 @@ const interval = setInterval(() => {
     // Si la cuenta llega a cero
     if (distance < 0) {
         clearInterval(interval);
-        document.getElementById('countdown').innerHTML = "¡hoy es el Gran Día!";
+        document.getElementById('countdown').innerHTML = "¡Hoy es el Gran Día!";
     }
 }, 1000);
